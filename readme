@@ -1,0 +1,22 @@
+----------PhekiX
+|
+|--------src/
+|   |
+|   |---config/
+|       |--roles.js          // logique de tri
+|   |
+|   |---core/
+|       |--classeur.js      //deplacer et renommer
+|       |--tri.js           // trieur logique
+|       |--watcher.js       //surveille chokidar
+|       |--detecteur.js     // surveille le dossier
+| 
+|   |
+|   |---logs/
+|       |--phekix.log       // journal historique
+|
+|   |--index.js
+|   |--.env
+|   |--.gitignore
+|   |--package.json
+|
