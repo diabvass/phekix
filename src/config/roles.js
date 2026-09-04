@@ -1,8 +1,10 @@
 export const Roles = {
-    Image: ['.jpeg', '.png', '.gif', '.webp', '.svg'],
-    Document: ['.txt', '.pdf', '.doc', '.docx', '.xls', '.ppt'],
-    Code: ['.html', '.css', '.js', '.json'],
-    Logiciel: ['.exe', '.msi']
+    Images: ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'],
+    Videos: ['.mp4', '.mkv', '.avi', '.mov', '.webm'],
+    Documents: ['.txt', '.pdf', '.doc', '.docx', '.xls', '.ppt', '.csv', '.xlsx'],
+    Codes: ['.html', '.css', '.js', '.json', '.sql', '.php'],
+    Logiciels: ['.exe', '.msi'],
+    Compresser: ['.zip', '.rar', '.7z', '.tar'],
 }
 
 export const INFOS_APP = {
