@@ -6,7 +6,11 @@ export const Detecteur = async (veillePath, depotPath) => {
 
     const alarme = watch(veillePath, {
         persistent: true,
-        ignored: /(^|[\/\\])\../,
+        ignored: [
+            /(^|[\/\\])\../,        //cache
+            /\.tmp$/,       // temp
+            /\.temp$/,      //temp
+        ],
         awaitWriteFinish: true
     });
 
