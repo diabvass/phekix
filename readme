@@ -8,7 +8,6 @@
 |   |---core/
 |       |--classeur.js      //deplacer et renommer
 |       |--tri.js           // trieur logique
-|       |--watcher.js       //surveille chokidar
 |       |--detecteur.js     // surveille le dossier
 | 
 |   |
